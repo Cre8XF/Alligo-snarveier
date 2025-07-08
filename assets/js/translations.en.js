@@ -28,7 +28,11 @@ window.translations_en = {
   },
 
   innkjop: {
-    subtitle: "Useful links related to purchasing, orders, and approved suppliers."
+    title: "TODO: translate",
+    subtitle: "Useful links related to purchasing, orders, and approved suppliers.",
+    link1: "TODO: translate",
+    link2: "TODO: translate",
+    link3: "TODO: translate"
   },
 
   fresh: {
@@ -46,31 +50,43 @@ window.translations_en = {
 
   tips: {
     title: "💡 Tips and Resources in Freshservice",
-    subtitle: "Need help, an overview or want to suggest improvements? You’ll find guides, catalogs, and feedback options here.",
-    manuals: "📘 Manuals and Troubleshooting",
-    manuals_text: "Browse guides and support articles in Freshservice.",
-    language: "🌍 Change Language",
+    intro: "TODO: translate",
+    manual_title: "📘 Manuals and Troubleshooting",
+    manual_text: "Browse guides and support articles in Freshservice.",
+    language_title: "🌍 Change Language",
     language_text: "Guide to switch Freshservice to English, Norwegian or Swedish.",
-    katalog: "📁 Service Catalog",
-    katalog_text: "Browse internal services within logistics, IT, product and more.",
-    forbedringer: "🔧 Suggestions for Improvement",
-    forbedringer_text: "Have a suggestion to improve Freshservice? Register it here."
+    catalog_title: "📁 Service Catalog",
+    catalog_text: "Browse internal services within logistics, IT, product and more.",
+    improve_title: "🔧 Suggestions for Improvement",
+    improve_text: "Have a suggestion to improve Freshservice? Register it here."
   },
 
   mail: {
-    subtitle: "Quick access to email and calendar for efficient communication."
+    title: "TODO: translate",
+    subtitle: "Quick access to email and calendar for efficient communication.",
+    outlook: "TODO: translate",
+    calendar: "TODO: translate"
   },
 
   nyheter: {
+    title: "TODO: translate",
     subtitle: "Overview of internal news and information channels from Alligo – stay up to date on operations, products and initiatives.",
+    link1_title: "TODO: translate",
     link1_text: "Official news, product launches and press releases.",
+    link2_title: "TODO: translate",
     link2_text: "System status and internal tool updates.",
+    link3_title: "TODO: translate",
     link3_text: "Changes in product assortment, suppliers and launches.",
+    link4_title: "TODO: translate",
     link4_text: "New product innovations in the F-series – updated daily with direct links to articles."
   },
 
   opto: {
-    subtitle: "Here you'll find selected reports and statistics from Opto – available as Excel files."
+    title: "TODO: translate",
+    subtitle: "Here you'll find selected reports and statistics from Opto – available as Excel files.",
+    link1: "TODO: translate",
+    link2: "TODO: translate",
+    link3: "TODO: translate"
   },
 
   footer: {
