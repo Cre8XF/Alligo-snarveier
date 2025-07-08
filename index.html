@@ -12,31 +12,30 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!-- Stilark -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/structured.css">
     <link rel="stylesheet" href="assets/css/mobile.css">
 </head>
   
 
 <body>
     <header class="sticky-header">
-        <div class="header-content">
+        <div class="header-top">
             <img src="assets/logo.png" alt="Alligo logo" class="logo" />
-            <div class="header-text">
-                <h1 data-i18n="header.title">🔗 Team Innkjøp – Nyttige lenker fra intranettet</h1>
-                <p data-i18n="header.subtitle">En samleside for deg i innkjøpsteamet – rask tilgang til verktøy, guider og støtte.</p>
-                <p data-i18n="header.updated">📅 Sist oppdatert: 2025-07-08</p>
-                
-            </div>
+            <label for="languageSelect" class="visually-hidden">Velg språk</label>
+            <select id="languageSelect" onchange="setLanguage(this.value)">
+                <option value="no" selected>🇳🇴 Norsk</option>
+                <option value="se">🇸🇪 Svenska</option>
+                <option value="en">🇬🇧 English</option>
+            </select>
         </div>
-        <label for="languageSelect" class="visually-hidden">Velg språk</label>
-        <select id="languageSelect" onchange="setLanguage(this.value)">
-            <option value="no" selected>🇳🇴 Norsk</option>
-            <option value="se">🇸🇪 Svenska</option>
-            <option value="en">🇬🇧 English</option>
-        </select>
-          
-    
-        <nav class="section-nav">
+        
+        <div class="header-text">
+            <h1 data-i18n="header.title">🔗 Team Innkjøp – Nyttige lenker fra intranettet</h1>
+            <p data-i18n="header.subtitle">En samleside for deg i innkjøpsteamet...</p>
+            <p data-i18n="header.updated">📅 Sist oppdatert: 2025-07-08</p>
+        </div>
+
+        <nav class="section-nav">           
             <ul>
                 <li><a href="#manualer" data-i18n="nav.manualer">Brukermanualer</a></li>
                 <li><a href="#innkjop" data-i18n="nav.innkjop">Innkjøp</a></li>
