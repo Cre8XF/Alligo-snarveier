@@ -1,0 +1,17 @@
+# Vanlige filer som bør ignoreres
+.DS_Store
+Thumbs.db
+*.log
+
+# Netlify eller bygget output (hvis du senere bygger noe lokalt)
+dist/
+build/
+
+# Node / dev-miljø hvis du en gang bruker npm
+node_modules/
+
+# Midlertidige arkiver
+*.zip
+
+# Miljøfiler (om du bruker API-nøkler senere)
+.env
