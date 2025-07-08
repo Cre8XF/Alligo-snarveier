@@ -21,21 +21,24 @@
     <header class="sticky-header">
         <div class="header-top">
             <img src="assets/logo.png" alt="Alligo logo" class="logo" />
-            <label for="languageSelect" class="visually-hidden">Velg språk</label>
-            <select id="languageSelect" onchange="setLanguage(this.value)">
-                <option value="no" selected>🇳🇴 Norsk</option>
-                <option value="se">🇸🇪 Svenska</option>
-                <option value="en">🇬🇧 English</option>
-            </select>
-        </div>
         
-        <div class="header-text">
-            <h1 data-i18n="header.title">🔗 Team Innkjøp – Nyttige lenker fra intranettet</h1>
-            <p data-i18n="header.subtitle">En samleside for deg i innkjøpsteamet...</p>
-            <p data-i18n="header.updated">📅 Sist oppdatert: 2025-07-08</p>
+            <div class="language-selector">
+                <label for="languageSelect" class="visually-hidden">Velg språk</label>
+                <select id="languageSelect" onchange="setLanguage(this.value)" aria-label="Velg språk">
+                    <option value="no" selected>🇳🇴 Norsk</option>
+                    <option value="se">🇸🇪 Svenska</option>
+                    <option value="en">🇬🇧 English</option>
+                </select>
+            </div>
         </div>
 
-        <nav class="section-nav">           
+        <div class="header-text">
+            <h1 data-i18n="header.title">🔗 Team Innkjøp</h1>
+            <p class="subtitle" data-i18n="header.subtitle">Nyttige lenker fra intranettet</p>
+            <p class="updated" data-i18n="header.updated">📅 Sist oppdatert: 2025-07-08</p>
+        </div>
+    
+        <nav class="section-nav">
             <ul>
                 <li><a href="#manualer" data-i18n="nav.manualer">Brukermanualer</a></li>
                 <li><a href="#innkjop" data-i18n="nav.innkjop">Innkjøp</a></li>
@@ -45,6 +48,7 @@
             </ul>
         </nav>
     </header>
+      
 
     <main>
         <section id="manualer">

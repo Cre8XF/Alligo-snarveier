@@ -48,53 +48,81 @@ footer {
 }
 
 /* =========================
-   🚩 HEADER & MENY
+   🚩 HEADER & MENY (OPPDATERT)
 ========================= */
 
 .sticky-header {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: #005288;
+  background: #0e3f5f;
   color: white;
-  padding-bottom: 0.5rem;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 6px rgba(61, 56, 56, 0.986);
 }
 
-header {
-  background: #0c507c;
-  color: white;
-  padding: 1rem;
-  text-align: center;
-}
-
-.header-content {
+/* Toppbjelke med logo og språkvelger */
+.header-top {
+  height: 60px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  padding: 1rem 1.5rem;
-  text-align: center;
+  padding: 0 1.5rem;
+  background: #003f6600;
+  border-bottom: 5px solid rgba(218, 233, 195, 0.1); /* valgfritt */
 }
 
 .logo {
-  height: 50px;
+  height: 40px;
   width: auto;
 }
 
+.header-top select {
+  font-size: 0.95rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #003f66;
+}
+.header-top select:hover {
+  border-color: #005288;
+}
+.language-selector {
+  margin-left: auto;
+}
+
+.language-selector select {
+  font-size: 0.95rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #003f66;
+}
+
+/* Midtdel med tittel og undertekster */
 .header-text {
-  flex: 1;
-  min-width: 200px;
+  text-align: center;
+  margin-top: 0.5rem;
+  padding: 0.8rem 1.5rem 0.5rem;
 }
 
 .header-text h1 {
   margin: 0;
   font-size: 1.5rem;
+  line-height: 1.2;
+  color: white;
 }
 
-.header-text p {
-  margin: 0.3rem 0 0;
-  font-size: 0.95rem;
+.header-text .subtitle {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #cce5ff;
+}
+
+.header-text .updated {
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
   color: #e0f0ff;
 }
 
