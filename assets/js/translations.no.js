@@ -28,7 +28,10 @@ window.translations_no = {
   
     innkjop: {
       title: "🛒 Innkjøp",
-      subtitle: "Nyttige lenker knyttet til innkjøp, bestillinger og godkjente leverandører."
+      subtitle: "Nyttige lenker knyttet til innkjøp, bestillinger og godkjente leverandører.",
+      link1: "📦 Bestillingsportal for kontorutstyr",
+      link2: "✅ Godkjente leverandører",
+      link3: "🛠️ Rutine for bestilling av teknisk utstyr"
     },
   
     fresh: {
@@ -47,15 +50,15 @@ window.translations_no = {
     tips: {
       title: "💡 Tips og ressurser i Freshservice",
       intro: "Trenger du hjelp, oversikt eller har et forslag? Her finner du guider, forbedringer og tjenestekatalogen samlet på ett sted.",
-      manuals_title: "📘 Manualer og feilsøking",
-      manuals_text: "Se løsninger og brukerveiledning i Freshservice.",
+      manual_title: "📘 Manualer og feilsøking",
+      manual_text: "Se løsninger og brukerveiledning i Freshservice.",
       language_title: "🌍 Endre språk",
       language_text: "Guide til hvordan du tilpasser Freshservice til norsk, svensk eller engelsk.",
-      katalog_title: "📁 Tjenestekatalog",
-      katalog_text: "Se interne tjenester innen logistikk, IT, produkt og mer.",
-      forbedringer_title: "🔧 Funksjonsforbedringer",
-      forbedringer_text: "Har du forslag til forbedringer i Freshservice? Registrer dem her."
-    },
+      catalog_title: "📁 Tjenestekatalog",
+      catalog_text: "Se interne tjenester innen logistikk, IT, produkt og mer.",
+      improve_title: "🔧 Funksjonsforbedringer",
+      improve_text: "Har du forslag til forbedringer i Freshservice? Registrer dem her."
+   },
   
     mail: {
       title: "📧 E-post og kalender",
