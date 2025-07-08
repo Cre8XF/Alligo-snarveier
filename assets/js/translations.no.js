@@ -1,8 +1,9 @@
 window.translations_no = {
+  header: {
     title: "🔗 Team Innkjøp – Nyttige lenker fra intranettet",
     subtitle: "En samleside for deg i innkjøpsteamet – rask tilgang til verktøy, guider og støtte.",
-    updated: "🗓 Sist oppdatert: 2025-07-08",
-  
+    updated: "📅 Sist oppdatert: 2025-07-08"
+  },
     nav: {
       manualer: "Brukermanualer",
       innkjop: "Innkjøp",

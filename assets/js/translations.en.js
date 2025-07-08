@@ -1,7 +1,9 @@
 window.translations_en = {
-  title: "🔗 Team Purchasing – Useful links from the intranet",
-  subtitle: "A hub page for the purchasing team – quick access to tools, guides, and support.",
-  updated: "📅 Last updated: 2025-07-08",
+  header: {
+    title: "🔗 Team Purchasing – Useful intranet links",
+    subtitle: "A curated page for the purchasing team – quick access to tools, guides and support.",
+    updated: "📅 Last updated: 2025-07-08"
+  },
 
   nav: {
     manualer: "User Manuals",

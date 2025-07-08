@@ -1,7 +1,9 @@
 window.translations_se = {
-  title: "🔗 Team Inköp – Nyttiga länkar från intranätet",
-  subtitle: "En samlingssida för dig i inköpsteamet – snabb åtkomst till verktyg, guider och support.",
-  updated: "📅 Senast uppdaterad: 2025-07-08",
+  header: {
+    title: "🔗 Team Inköp – Nyttiga länkar från intranätet",
+    subtitle: "En samlingssida för dig i inköpsteamet – snabb åtkomst till verktyg, guider och support.",
+    updated: "📅 Senast uppdaterad: 2025-07-08"
+  },
 
   nav: {
     manualer: "Användarmanualer",

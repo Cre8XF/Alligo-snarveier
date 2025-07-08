@@ -1,40 +1,34 @@
-const languageSelect = document.getElementById("languageSelect");
-const defaultLang = localStorage.getItem("selectedLanguage") || "no";
-
-const languageMap = {
-  no: window.translations_no,
-  se: window.translations_se,
-  en: window.translations_en,
-};
-
-let translations = languageMap[defaultLang] || {};
-
 document.addEventListener("DOMContentLoaded", () => {
-  setLanguage(defaultLang);
-  if (languageSelect) {
-    languageSelect.value = defaultLang;
-    languageSelect.addEventListener("change", (e) => {
+  const savedLang = localStorage.getItem("language") || "no";
+  const select = document.getElementById("languageSelect");
+  if (select) {
+    select.value = savedLang;
+    select.addEventListener("change", (e) => {
       setLanguage(e.target.value);
     });
   }
+  waitForTranslations(savedLang);
 });
 
 function setLanguage(lang) {
-  if (!languageMap[lang]) return;
-  translations = languageMap[lang];
-  localStorage.setItem("selectedLanguage", lang);
-  updateText();
+  localStorage.setItem("language", lang);
+  waitForTranslations(lang);
 }
 
-function getNestedValue(obj, keyPath) {
-  return keyPath.split(".").reduce((acc, key) => acc?.[key], obj);
+function waitForTranslations(lang, tries = 0) {
+  const dictionary = window[`translations_${lang}`];
+  if (dictionary) {
+    updateText(dictionary);
+  } else if (tries < 10) {
+    setTimeout(() => waitForTranslations(lang, tries + 1), 100);
+  }
 }
 
-function updateText() {
+function updateText(dictionary) {
   const elements = document.querySelectorAll("[data-i18n]");
   elements.forEach((el) => {
     const key = el.getAttribute("data-i18n");
-    const translation = getNestedValue(translations, key);
+    const translation = dictionary[key];
     if (translation) {
       el.innerHTML = translation;
     }
