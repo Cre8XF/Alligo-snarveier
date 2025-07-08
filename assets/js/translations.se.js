@@ -1,3 +1,4 @@
+// assets/translations.se.js
 window.translations_se = {
   header: {
     title: "🔗 Team Inköp – Nyttiga länkar från intranätet",
@@ -28,11 +29,11 @@ window.translations_se = {
   },
 
   innkjop: {
-    title: "TODO: translate",
+    title: "🛒 Inköp",
     subtitle: "Nyttiga länkar relaterade till inköp, beställningar och godkända leverantörer.",
-    link1: "TODO: translate",
-    link2: "TODO: translate",
-    link3: "TODO: translate"
+    link1: "📦 Beställningsportal för kontorsmaterial",
+    link2: "✅ Godkända leverantörer",
+    link3: "🛠️ Rutin för beställning av teknisk utrustning"
   },
 
   fresh: {
@@ -50,7 +51,7 @@ window.translations_se = {
 
   tips: {
     title: "💡 Tips och resurser i Freshservice",
-    intro: "TODO: translate",
+    intro: "Behöver du hjälp, översikt eller har ett förslag? Här hittar du guider, förbättringar och tjänstekatalogen samlade.",
     manual_title: "📘 Manualer och felsökning",
     manual_text: "Se lösningar och användarguider i Freshservice.",
     language_title: "🌍 Ändra språk",
@@ -62,31 +63,31 @@ window.translations_se = {
   },
 
   mail: {
-    title: "TODO: translate",
+    title: "📧 E-post och kalender",
     subtitle: "Snabb åtkomst till e-post och kalender för effektiv kommunikation.",
-    outlook: "TODO: translate",
-    calendar: "TODO: translate"
+    outlook: "📬 Outlook Web App",
+    calendar: "📅 Kalender"
   },
 
   nyheter: {
-    title: "TODO: translate",
+    title: "🔔 Alligo Nyhetsöversikt",
     subtitle: "Samlad översikt över interna nyheter och informationskanaler från Alligo – håll dig uppdaterad om drift, sortiment och fältbaserade initiativ.",
-    link1_title: "TODO: translate",
+    link1_title: "📰 Nyhetsrum",
     link1_text: "Officiella nyheter, lanseringar och pressmeddelanden.",
-    link2_title: "TODO: translate",
+    link2_title: "⚙️ Driftsinformation",
     link2_text: "Status och uppdateringar om system och interna verktyg.",
-    link3_title: "TODO: translate",
+    link3_title: "🛒 Sortimentnyheter",
     link3_text: "Förändringar i produktsortiment, leverantörer och lanseringar.",
-    link4_title: "TODO: translate",
+    link4_title: "🌍 New in Field",
     link4_text: "Nya produktinnovationer i F-serien – listan uppdateras dagligen med direkta länkar till artiklarna."
   },
 
   opto: {
-    title: "TODO: translate",
+    title: "📊 Opto-statistik (Excel)",
     subtitle: "Här hittar du utvalda rapporter och statistik från Opto – tillgängliga som Excel-filer.",
-    link1: "TODO: translate",
-    link2: "TODO: translate",
-    link3: "TODO: translate"
+    link1: "📈 Opto-rapport vecka 27 (Excel)",
+    link2: "📊 Statistik och utveckling – H1 2025",
+    link3: "📁 Anpassad rapport – Grupp A"
   },
 
   footer: {
