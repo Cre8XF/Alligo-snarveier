@@ -1,0 +1,372 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #bac1ca;
+  color: #333;
+}
+html,
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header {
+  background: #0c507c;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 1.8rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+.sticky-header .header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem 1.5rem;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.header-text {
+  flex: 1;
+  min-width: 200px;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.header-text p {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  color: #e0f0ff;
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: white;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-left: 5px solid #005288;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+section h2 {
+  margin-top: 0;
+  color: #005288;
+  font-size: 1.3rem;
+}
+section {
+  scroll-margin-top: 200px; /* eller juster avhengig av høyden på header+meny */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.support-subgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.support-subgrid a {
+  display: block;
+  color: #0078d4;
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+.support-subgrid a:hover {
+  text-decoration: underline;
+}
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.support-card {
+  display: block;
+  background: #ffffff;
+  border-left: 5px solid #005288;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  background: #f9f9ff;
+}
+
+.support-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #005288;
+}
+
+.support-card p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.subsection {
+  margin-top: 2rem;
+  background: #f4f6fa;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #005288;
+}
+
+.subsection h3 {
+  margin-top: 0;
+  color: #005288;
+}
+
+.subsection ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subsection li {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.subsection a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.subsection a:hover {
+  text-decoration: underline;
+}
+.manual-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.manual-card {
+  background: #f9f9f9;
+  border-left: 4px solid #005288;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.manual-card:hover {
+  background: #e8f0fb;
+  transform: translateX(3px);
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.news-card {
+  background: #f9f9f9;
+  border-left: 4px solid #005288;
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.news-card:hover {
+  background: #e6f2fb;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.news-card h3 {
+  margin-top: 0;
+  color: #005288;
+  font-size: 1.1rem;
+}
+
+.news-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+.opto-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.opto-card {
+  background: #f4f6f9;
+  border-left: 4px solid #005288;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.opto-card:hover {
+  background: #e0effc;
+  transform: translateX(3px);
+}
+.purchase-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.purchase-card {
+  background: #f4f6f9;
+  border-left: 4px solid #005288;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.purchase-card:hover {
+  background: #e0effc;
+  transform: translateX(3px);
+}
+.section-nav {
+  background: #eef2f5;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+}
+
+.section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.section-nav li {
+  display: inline;
+}
+
+.section-nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #005288;
+  transition: color 0.2s ease;
+}
+
+.section-nav a:hover {
+  color: #0078d4;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #005288;
+  color: white;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+  text-align: center;
+  padding: 1rem;
+}
+
+.section-nav {
+  background: #eef2f5;
+  padding: 0.6rem 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid #003f66;
+}
+
+.section-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.section-nav li a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #005288;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.section-nav li a:hover {
+  background: #dbe9f3;
+  color: #003f66;
+}
