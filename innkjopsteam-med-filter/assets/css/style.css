@@ -1,0 +1,199 @@
+/* =========================
+   🌐 GLOBALT
+========================= */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  color: #111;
+  margin: 0;
+  padding: 1rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* =========================
+   🚩 HEADER
+========================= */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #005288;
+  color: white;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.language-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.9rem;
+  color: white;
+  gap: 0.2rem;
+}
+
+header select {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: none;
+  color: #003f66;
+  background: white;
+}
+
+/* =========================
+   🏷️ FILTER-TAGS
+========================= */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.filter-tag {
+  background: #e6f2fb;
+  border: 1px solid #005288;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #005288;
+}
+
+.filter-tag.active {
+  background: #005288;
+  color: white;
+}
+
+/* =========================
+   👤 PERSON-KORT
+========================= */
+.person-card {
+  display: flex;
+  gap: 1.5rem;
+  background: white;
+  border-left: 5px solid #005288;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  align-items: flex-start;
+}
+
+.person-image-wrapper {
+  flex-shrink: 0;
+}
+
+.person-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.person-info {
+  flex: 1;
+}
+
+.person-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #005288;
+}
+
+.person-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.person-card a {
+  color: #005288;
+  text-decoration: none;
+}
+
+.person-card a:hover {
+  text-decoration: underline;
+}
+/* === FILTERSEKSJON === */
+.filter-section {
+  padding: 1rem;
+  background: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-group h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #004a7c;
+  border-left: 4px solid #0077b6;
+  padding-left: 0.5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  background-color: #e7f3ff;
+  border: 1px solid #0077b6;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #cce6ff;
+}
+
+.filter-btn.active {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+/* === RESPONSIVITET === */
+@media (max-width: 600px) {
+  .filter-section {
+    padding: 0.75rem;
+  }
+
+  .filter-group h4 {
+    font-size: 1rem;
+  }
+
+  .filter-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
+}

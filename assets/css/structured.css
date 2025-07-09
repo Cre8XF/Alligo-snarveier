@@ -6,12 +6,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body,
-select,
-p {
-  font-family: 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji', 'Apple Color Emoji', sans-serif;
-}
-
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;

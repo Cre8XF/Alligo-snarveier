@@ -1,0 +1,1887 @@
+[
+  {
+    "name": "Amanda Bergström",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Andreas Rörberg",
+      "Andréas Good",
+      "David Benjaminsson",
+      "Jorn Johannessen",
+      "Julia Karlsson",
+      "Laura Ulmanen-Kaukinen",
+      "Luigi De Stefano",
+      "Mathias Bruland",
+      "Morten Gran",
+      "Peter Rydell",
+      "Pierre Jacobsson",
+      "Reklamationsavdelning",
+      "Rikard Karlsson",
+      "Rune Breivik",
+      "Thomas Huseth",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "amanda_bergstr_m"
+  },
+  {
+    "name": "Amanda Ericsson",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Cicilia Durevall",
+      "Kaisa Westerklint",
+      "Marlene Forsberg"
+    ],
+    "department": "Kategori Kläder",
+    "email": "amanda.ericsson@alligo.com",
+    "phone": "+46730884278",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "amanda_ericsson"
+  },
+  {
+    "name": "Andreas Rörberg",
+    "role": "product_manager",
+    "categories": [
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "andreas_r_rberg"
+  },
+  {
+    "name": "Andreas Stenborg",
+    "role": "product_manager",
+    "categories": [
+      "Consumables"
+    ],
+    "worksWith": [
+      "Erlend Sunde"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "andreas_stenborg"
+  },
+  {
+    "name": "Andréas Good",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Cicilia Durevall",
+      "Erik Brubakk",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Terese Girys"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "andr_as_good"
+  },
+  {
+    "name": "Annicka Svensson",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Bengt Tholin",
+      "Christina Wirsén",
+      "David Benjaminsson",
+      "Hilding Bengtson",
+      "Jan Forsström",
+      "Jonathan Plate",
+      "Jorn Johannessen",
+      "Julia Karlsson",
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren",
+      "Mathias Bruland",
+      "Niclas Andersson",
+      "Niclas Olsson",
+      "Ola Olsson",
+      "Oskar Ulwemann",
+      "Peter Nagy",
+      "Peter Rydell",
+      "Petter Cussil",
+      "Pierre Jacobsson",
+      "Rikard Karlsson",
+      "Robert Andersson",
+      "Rune Breivik",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "annicka_svensson"
+  },
+  {
+    "name": "Arve Dag Svendsen",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Erik Brubakk",
+      "Thor Olav Andreassen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "arve_dag_svendsen"
+  },
+  {
+    "name": "Bengt Tholin",
+    "role": "product_manager",
+    "categories": [
+      "Consumables"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Kristiina Andresson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "bengt_tholin"
+  },
+  {
+    "name": "Butsta",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Erik Brubakk",
+      "Linnea Lindén",
+      "Thor Olav Andreassen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "butsta"
+  },
+  {
+    "name": "Christina Wirsén",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Cicilia Durevall",
+      "Erik Brubakk",
+      "Fevzi Haxha",
+      "Kaisa Westerklint",
+      "Kristiina Andresson",
+      "Lars Enander",
+      "Mats Olofsson",
+      "Roger Sørqvist",
+      "Thor Olav Andreassen",
+      "Tommy Roald"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "christina_wirs_n"
+  },
+  {
+    "name": "Cicilia Durevall",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Ericsson",
+      "Andréas Good",
+      "Christina Wirsén",
+      "Hilding Bengtson",
+      "Nina Hedström",
+      "Oskar Ulwemann",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Stina Göransson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "cicilia_durevall"
+  },
+  {
+    "name": "Dag Atle Svendsen",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Erik Brubakk"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "dag_atle_svendsen"
+  },
+  {
+    "name": "David Benjaminsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Erlend Sunde",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Tali Sundberg",
+      "Terese Girys",
+      "Thor Olav Andreassen",
+      "Tommy Roald",
+      "Trond Navelsaker"
+    ],
+    "department": "Kategori Gård och Skog",
+    "email": "david.benjaminsson@alligo.com",
+    "phone": "+46730966398",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "david_benjaminsson"
+  },
+  {
+    "name": "Dejan Matic",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Laura Ulmanen-Kaukinen",
+      "Pierre Jacobsson",
+      "Rauno Halonen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "dejan_matic"
+  },
+  {
+    "name": "Erik Brubakk",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Operation",
+      "Services",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Andréas Good",
+      "Arve Dag Svendsen",
+      "Butsta",
+      "Christina Wirsén",
+      "Dag Atle Svendsen",
+      "Erik Brubakk_Univern",
+      "Hoa Thoong",
+      "Jonathan Plate",
+      "Jorn Johannessen",
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren",
+      "N/A Dag Olavson_Univern I/A",
+      "Niclas Olsson",
+      "Peter Rydell",
+      "Petter Cussil",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Rikard Karlsson",
+      "Robert Andersson",
+      "Rune Breivik"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "erik_brubakk"
+  },
+  {
+    "name": "Erik Brubakk_Univern",
+    "role": "product_manager",
+    "categories": [
+      "Services"
+    ],
+    "worksWith": [
+      "Erik Brubakk"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "erik_brubakk_univern"
+  },
+  {
+    "name": "Erlend Sunde",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Andreas Stenborg",
+      "David Benjaminsson",
+      "Henning Hauge-Nilsen",
+      "Maria Westergren",
+      "Mathias Bruland",
+      "Oskar Ulwemann",
+      "Teemu Valovuori",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "erlend_sunde"
+  },
+  {
+    "name": "Fevzi Haxha",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Christina Wirsén",
+      "Thomas Huseth"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "fevzi_haxha"
+  },
+  {
+    "name": "Fredrik Squair",
+    "role": "product_manager",
+    "categories": [
+      "Tools"
+    ],
+    "worksWith": [
+      "Fredrik Squair"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "fredrik_squair"
+  },
+  {
+    "name": "Geir Vassøy",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Nicholas Belec",
+      "Niclas Andersson",
+      "Pierre Jacobsson",
+      "Rikard Karlsson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "geir_vassoy"
+  },
+  {
+    "name": "Gunilla Månsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables"
+    ],
+    "worksWith": [
+      "Fredrik Squair",
+      "Roger Sørqvist"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "gunilla_mansson"
+  },
+  {
+    "name": "Henning Hauge-Nilsen",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components"
+    ],
+    "worksWith": [
+      "Erlend Sunde",
+      "Kristiina Andresson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "henning_hauge_nilsen"
+  },
+  {
+    "name": "Hilding Bengtson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Cicilia Durevall",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Tali Sundberg",
+      "Terese Girys"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "hilding_bengtson"
+  },
+  {
+    "name": "Hoa Thoong",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Tommy Roald"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "hoa_thoong"
+  },
+  {
+    "name": "Jan Forsström",
+    "role": "product_manager",
+    "categories": [
+      "Consumables"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Terese Girys",
+      "Tommy Roald"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "jan_forsstr_m"
+  },
+  {
+    "name": "Jonathan Plate",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Tali Sundberg",
+      "Thor Olav Andreassen",
+      "Trond Navelsaker"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "jonathan_plate"
+  },
+  {
+    "name": "Jorn Johannessen",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Andreas Rörberg",
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Mats Olofsson",
+      "Roger Sørqvist",
+      "Terese Girys",
+      "Thor Olav Andreassen",
+      "Trond Navelsaker"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "jorn_johannessen"
+  },
+  {
+    "name": "Julia Karlsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Andreas Rörberg",
+      "Annicka Svensson",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Terese Girys",
+      "Tommy Roald"
+    ],
+    "department": "Kategori Gård och Skog",
+    "email": "julia.karlsson@alligo.com",
+    "phone": "",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "julia_karlsson"
+  },
+  {
+    "name": "Kaisa Westerklint",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Ericsson",
+      "Christina Wirsén",
+      "Maria Westergren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "kaisa_westerklint"
+  },
+  {
+    "name": "Kristiina Andresson",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Andréas Good",
+      "Bengt Tholin",
+      "Christina Wirsén",
+      "David Benjaminsson",
+      "Henning Hauge-Nilsen",
+      "Hilding Bengtson",
+      "Hoa Thoong",
+      "Jan Forsström",
+      "Jonathan Plate",
+      "Jorn Johannessen",
+      "Julia Karlsson",
+      "Luigi De Stefano",
+      "Mathias Bruland",
+      "Nicholas Belec",
+      "Niclas Andersson",
+      "Nina Hedström",
+      "Oskar Ulwemann",
+      "Peter Rydell",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Reklamationsavdelning",
+      "Rikard Karlsson",
+      "Rune Breivik",
+      "Tommy Lindgren",
+      "Tools"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "kristiina_andresson"
+  },
+  {
+    "name": "Kristin Hallbäck",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Marlene Forsberg"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "kristin_hallb_ck"
+  },
+  {
+    "name": "Lars Enander",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Christina Wirsén",
+      "Maria Westergren",
+      "N/A Dag Olavson_Univern I/A",
+      "Paula Ruotsalainen",
+      "Petter Cussil",
+      "Robert Andersson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "lars_enander"
+  },
+  {
+    "name": "Laura Ulmanen-Kaukinen",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Dejan Matic",
+      "Erik Brubakk",
+      "Linnea Lindén",
+      "Malin Moberg",
+      "Maria Westergren",
+      "Mats Olofsson",
+      "Tali Sundberg",
+      "Thor Olav Andreassen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "laura_ulmanen_kaukinen"
+  },
+  {
+    "name": "Linnea Lindén",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Butsta",
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren",
+      "Mjn",
+      "N/A Dag Olavson_Univern I/A",
+      "Robert Andersson",
+      "Rune Breivik"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "linnea_lind_n"
+  },
+  {
+    "name": "Luigi De Stefano",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Kristiina Andresson",
+      "Trond Navelsaker"
+    ],
+    "department": "Kategori Verktyg",
+    "email": "luigi.destefano@alligo.com",
+    "phone": "+46706507503",
+    "location": "Tyresö",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "luigi_de_stefano"
+  },
+  {
+    "name": "Magnus Wallin",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components"
+    ],
+    "worksWith": [
+      "Fredrik Squair",
+      "Roger Sørqvist"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "magnus_wallin"
+  },
+  {
+    "name": "Malin Moberg",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "malin_moberg"
+  },
+  {
+    "name": "Maria Westergren",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Operation",
+      "Services",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Erlend Sunde",
+      "Kaisa Westerklint",
+      "Lars Enander",
+      "Linnea Lindén",
+      "Malin Moberg",
+      "Marlene Forsberg",
+      "Mats Olofsson",
+      "Roger Sørqvist",
+      "Thor Olav Andreassen",
+      "Tommy Roald"
+    ],
+    "department": "Kategori Skydd",
+    "email": "maria.westergren@alligo.com",
+    "phone": "+46724698124",
+    "location": "Tyresö",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "maria_westergren"
+  },
+  {
+    "name": "Marlene Forsberg",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Ericsson",
+      "Kristin Hallbäck",
+      "Maria Westergren",
+      "Niclas Olsson",
+      "Stina Göransson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "marlene_forsberg"
+  },
+  {
+    "name": "Mathias Bruland",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Erlend Sunde",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Tali Sundberg",
+      "Terese Girys"
+    ],
+    "department": "Kategori Industrial Components",
+    "email": "mathias.bruland@alligo.com",
+    "phone": "+47 91 71 96 72",
+    "location": "Oslo",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "mathias_bruland"
+  },
+  {
+    "name": "Mats Olofsson",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Christina Wirsén",
+      "Jorn Johannessen",
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren",
+      "Robert Andersson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "mats_olofsson"
+  },
+  {
+    "name": "Mjn",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Linnea Lindén"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "mjn"
+  },
+  {
+    "name": "Morten Gran",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Andreas Rörberg",
+      "Fredrik Squair"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "morten_gran"
+  },
+  {
+    "name": "N/A Dag Olavson_Univern I/A",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Erik Brubakk",
+      "Lars Enander",
+      "Linnea Lindén"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "n_a_dag_olavson_univern_i_a"
+  },
+  {
+    "name": "Nicholas Belec",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Fredrik Squair",
+      "Geir Vassøy",
+      "Kristiina Andresson",
+      "Tali Sundberg",
+      "Terese Girys",
+      "Tommy Roald"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "nicholas_belec"
+  },
+  {
+    "name": "Niclas Andersson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Fredrik Squair",
+      "Geir Vassøy",
+      "Kristiina Andresson",
+      "Terese Girys"
+    ],
+    "department": "Kategori Infästningar",
+    "email": "niclas.andersson@alligo.com",
+    "phone": "",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "niclas_andersson"
+  },
+  {
+    "name": "Niclas Olsson",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Marlene Forsberg",
+      "Pernilla Lundqvist"
+    ],
+    "department": "Kategori Kläder",
+    "email": "niclas.olsson@alligo.com",
+    "phone": "+46724519268",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "niclas_olsson"
+  },
+  {
+    "name": "Nina Hedström",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Services",
+      "Tools"
+    ],
+    "worksWith": [
+      "Cicilia Durevall",
+      "Kristiina Andresson",
+      "Tali Sundberg",
+      "Terese Girys",
+      "Trond Navelsaker"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "nina_hedstr_m"
+  },
+  {
+    "name": "Ola Olsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Fredrik Squair",
+      "Tommy Roald"
+    ],
+    "department": "Kategori Skydd",
+    "email": "ola.olsson@alligo.com",
+    "phone": "+46703050414",
+    "location": "Tyresö",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "ola_olsson"
+  },
+  {
+    "name": "Oskar Ulwemann",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
+    "worksWith": [
+      "Andreas Rörberg",
+      "Annicka Svensson",
+      "Cicilia Durevall",
+      "Erlend Sunde",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Tali Sundberg",
+      "Terese Girys",
+      "Tommy Roald"
+    ],
+    "department": "Category Workplace",
+    "email": "oskar.ulwemann@alligo.com",
+    "phone": "+46 72 242 27 48",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "oskar_ulwemann"
+  },
+  {
+    "name": "Paula Ruotsalainen",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Lars Enander"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "paula_ruotsalainen"
+  },
+  {
+    "name": "Pernilla Lundqvist",
+    "role": "buyer",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Niclas Olsson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "pernilla_lundqvist"
+  },
+  {
+    "name": "Peter Nagy",
+    "role": "product_manager",
+    "categories": [
+      "Tools"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Fredrik Squair"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "peter_nagy"
+  },
+  {
+    "name": "Peter Rydell",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Andreas Rörberg",
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Maria Westergren",
+      "Roger Sørqvist",
+      "Tommy Roald",
+      "Trond Navelsaker"
+    ],
+    "department": "Kategori Förnödenheter",
+    "email": "peter.rydell@alligo.com",
+    "phone": "+46724698052",
+    "location": "Tyresö",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "peter_rydell"
+  },
+  {
+    "name": "Petter Cussil",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Lars Enander",
+      "Maria Westergren",
+      "Thor Olav Andreassen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "petter_cussil"
+  },
+  {
+    "name": "Pierre Jacobsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Andreas Rörberg",
+      "Annicka Svensson",
+      "Cicilia Durevall",
+      "Dejan Matic",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Geir Vassøy",
+      "Kristiina Andresson",
+      "Tali Sundberg",
+      "Thor Olav Andreassen",
+      "Tommy Roald",
+      "Trond Navelsaker"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "pierre_jacobsson"
+  },
+  {
+    "name": "Rauno Halonen",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Andreas Rörberg",
+      "Cicilia Durevall",
+      "Dejan Matic",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Tali Sundberg",
+      "Thor Olav Andreassen",
+      "Tommy Roald",
+      "Trond Navelsaker"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "rauno_halonen"
+  },
+  {
+    "name": "Reklamationsavdelning",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Tali Sundberg"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "reklamationsavdelning"
+  },
+  {
+    "name": "Rikard Karlsson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Geir Vassøy",
+      "Kristiina Andresson",
+      "Terese Girys",
+      "Tommy Roald",
+      "Trond Navelsaker"
+    ],
+    "department": "Kategori Infästningar",
+    "email": "rikard.karlsson@alligo.com",
+    "phone": "+46703057959",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "rikard_karlsson"
+  },
+  {
+    "name": "Robert Andersson",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Lars Enander",
+      "Linnea Lindén",
+      "Mats Olofsson",
+      "Roger Sørqvist",
+      "Thor Olav Andreassen"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "robert_andersson"
+  },
+  {
+    "name": "Roger Sørqvist",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Andréas Good",
+      "Christina Wirsén",
+      "David Benjaminsson",
+      "Gunilla Månsson",
+      "Jorn Johannessen",
+      "Julia Karlsson",
+      "Magnus Wallin",
+      "Maria Westergren",
+      "Mathias Bruland",
+      "Oskar Ulwemann",
+      "Peter Rydell",
+      "Rauno Halonen",
+      "Robert Andersson",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "roger_sorqvist.jpg",
+    "slug": "roger_sorqvist"
+  },
+  {
+    "name": "Rune Breivik",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Erik Brubakk",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Linnea Lindén",
+      "Tali Sundberg",
+      "Thor Olav Andreassen",
+      "Tommy Roald"
+    ],
+    "department": "Kategori Tekniskt skydd",
+    "email": "rune.breivik@alligo.com",
+    "phone": "90938228",
+    "location": "Trollåsen",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "rune_breivik"
+  },
+  {
+    "name": "Stina Göransson",
+    "role": "product_manager",
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Cicilia Durevall",
+      "Marlene Forsberg"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "stina_g_ransson"
+  },
+  {
+    "name": "Tali Sundberg",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "David Benjaminsson",
+      "Hilding Bengtson",
+      "Jonathan Plate",
+      "Laura Ulmanen-Kaukinen",
+      "Mathias Bruland",
+      "Nicholas Belec",
+      "Nina Hedström",
+      "Oskar Ulwemann",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Reklamationsavdelning",
+      "Rune Breivik",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "tali_sundberg"
+  },
+  {
+    "name": "Teemu Valovuori",
+    "role": "product_manager",
+    "categories": [
+      "Industrial Components"
+    ],
+    "worksWith": [
+      "Erlend Sunde"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "teemu_valovuori"
+  },
+  {
+    "name": "Terese Girys",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Services",
+      "Tools"
+    ],
+    "worksWith": [
+      "Andréas Good",
+      "David Benjaminsson",
+      "Hilding Bengtson",
+      "Jan Forsström",
+      "Jorn Johannessen",
+      "Julia Karlsson",
+      "Mathias Bruland",
+      "Nicholas Belec",
+      "Niclas Andersson",
+      "Nina Hedström",
+      "Oskar Ulwemann",
+      "Rikard Karlsson",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "terese_girys"
+  },
+  {
+    "name": "Thomas Huseth",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Fevzi Haxha"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "thomas_huseth"
+  },
+  {
+    "name": "Thor Olav Andreassen",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Arve Dag Svendsen",
+      "Butsta",
+      "Christina Wirsén",
+      "David Benjaminsson",
+      "Jonathan Plate",
+      "Jorn Johannessen",
+      "Laura Ulmanen-Kaukinen",
+      "Maria Westergren",
+      "Petter Cussil",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Robert Andersson",
+      "Rune Breivik"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "thor_olav_andreassen"
+  },
+  {
+    "name": "Tommy Lindgren",
+    "role": "product_manager",
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools"
+    ],
+    "worksWith": [
+      "Amanda Bergström",
+      "Annicka Svensson",
+      "Erlend Sunde",
+      "Fredrik Squair",
+      "Kristiina Andresson",
+      "Roger Sørqvist",
+      "Tali Sundberg",
+      "Terese Girys",
+      "Tommy Roald"
+    ],
+    "department": "Kategori Förnödenheter",
+    "email": "tommy.lindgren@alligo.com",
+    "phone": "+46739398465",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "tommy_lindgren"
+  },
+  {
+    "name": "Tommy Roald",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
+    "worksWith": [
+      "Christina Wirsén",
+      "David Benjaminsson",
+      "Hoa Thoong",
+      "Jan Forsström",
+      "Julia Karlsson",
+      "Maria Westergren",
+      "Nicholas Belec",
+      "Ola Olsson",
+      "Oskar Ulwemann",
+      "Peter Rydell",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Rikard Karlsson",
+      "Rune Breivik",
+      "Tommy Lindgren"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "tommy_roald"
+  },
+  {
+    "name": "Tools",
+    "role": "product_manager",
+    "categories": [
+      "Tools"
+    ],
+    "worksWith": [
+      "Kristiina Andresson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "tools"
+  },
+  {
+    "name": "Trond Navelsaker",
+    "role": "buyer",
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
+    "worksWith": [
+      "David Benjaminsson",
+      "Jonathan Plate",
+      "Jorn Johannessen",
+      "Luigi De Stefano",
+      "Nina Hedström",
+      "Peter Rydell",
+      "Pierre Jacobsson",
+      "Rauno Halonen",
+      "Rikard Karlsson"
+    ],
+    "department": "",
+    "email": "",
+    "phone": "",
+    "location": "",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "trond_navelsaker"
+  },
+  {
+    "name": "Pierre Jakobsson",
+    "role": "product_manager",
+    "department": "Category Industrial Components",
+    "categories": [],
+    "worksWith": [],
+    "email": "pierre.jakobsson@alligo.com",
+    "phone": "+46735811618",
+    "location": "Tyresö",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "pierre_jakobsson"
+  },
+  {
+    "name": "Stina Göransson",
+    "role": "product_manager",
+    "department": "Kategori Kläder",
+    "categories": [],
+    "worksWith": [],
+    "email": "stina.goransson@alligo.com",
+    "phone": "+46721494545",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "stina_goransson"
+  },
+  {
+    "name": "Lisette Schubertsson Larsson",
+    "role": "product_manager",
+    "department": "Kategori Kläder",
+    "categories": [],
+    "worksWith": [],
+    "email": "lisette.schubertsson.larsson@alligo.com",
+    "phone": "+46735768828",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "lisette_schubertsson_larsson"
+  },
+  {
+    "name": "Alexander Sanneryd",
+    "role": "product_manager",
+    "department": "Kategori Verktyg",
+    "categories": [],
+    "worksWith": [],
+    "email": "Alexander.Sanneryd@swedol.se",
+    "phone": "+46722183867",
+    "location": "Örebro",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "alexander_sanneryd"
+  },
+  {
+    "name": "Christina Wirsén",
+    "role": "product_manager",
+    "department": "Kategori Kläder",
+    "categories": [],
+    "worksWith": [],
+    "email": "christina.wirsen@alligo.com",
+    "phone": "+46 70 387 39 09",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "christina_wirsén"
+  },
+  {
+    "name": "Andreas Good",
+    "role": "product_manager",
+    "department": "Category Welding",
+    "categories": [],
+    "worksWith": [],
+    "email": "andreas.good@alligo.com",
+    "phone": "+46735741918",
+    "location": "Almedal",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "andreas_good"
+  },
+  {
+    "name": "Børre Jakobsen",
+    "role": "product_manager",
+    "department": "Category Industrial Components",
+    "categories": [],
+    "worksWith": [],
+    "email": "+47 92 05 25 52",
+    "phone": "+47 92 05 25 52",
+    "location": "borre.jakobsen@alligo.com",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "børre_jakobsen"
+  },
+  {
+    "name": "Jørn Johannessen",
+    "role": "product_manager",
+    "department": "Kategori Förnödenheter",
+    "categories": [],
+    "worksWith": [],
+    "email": "jorn.johannessen@alligo.com",
+    "phone": "+47 99 54 44 05",
+    "location": "Trollåsen",
+    "company": "Alligo",
+    "topSuppliers": [],
+    "image": "default-avatar.png",
+    "slug": "jørn_johannessen"
+  }
+]

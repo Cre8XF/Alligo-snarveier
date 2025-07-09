@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="no">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="page.title">Innkjøpsteam-oversikt</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <header>
+    <h1 data-i18n="header.title">🧑‍💼 Innkjøpsteam</h1>
+
+    <div class="language-wrapper">
+      <span>Velg språk</span>
+      <label for="languageSelect" class="visually-hidden">Velg språk</label>
+      <select id="languageSelect" onchange="setLanguage(this.value)">
+        <option value="no" selected>🇳🇴 Norsk</option>
+        <option value="se">🇸🇪 Svenska</option>
+        <option value="en">🇬🇧 English</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- 🔍 Filterseksjoner -->
+  <section class="filter-section">
+    <div class="filter-group">
+      <h4>🧑‍💼 Rolle</h4>
+      <div class="filter-buttons">
+        <button class="filter-btn" data-role="buyer">Innkjøper</button>
+        <button class="filter-btn" data-role="product_manager">Produktsjef</button>
+      </div>
+    </div>
+
+    <div class="filter-group">
+      <h4>📦 Kategorier</h4>
+      <div class="filter-buttons" id="categoryFilters">
+        <!-- Dynamisk generert via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 👤 Personkort vises her -->
+  <main id="peopleContainer"></main>
+
+  <!-- 🔗 Språk og datakode -->
+  <script src="assets/js/translations.no.js"></script>
+  <script src="assets/js/translations.se.js"></script>
+  <script src="assets/js/translations.en.js"></script>
+  <script src="assets/js/generate-people.js"></script>
+</body>
+
+</html>

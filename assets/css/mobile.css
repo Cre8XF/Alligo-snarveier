@@ -181,3 +181,11 @@ section {
   white-space: nowrap;
   border: 0;
 }
+@media (min-width: 601px) {
+  .section-nav ul {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+  }
+}
