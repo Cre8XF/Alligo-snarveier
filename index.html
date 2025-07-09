@@ -22,17 +22,21 @@
         <div class="header-top">
             <img src="assets/logo.png" alt="Alligo logo" class="logo" />
         
-            <div class="language-selector">
-                <label for="languageSelect" class="visually-hidden">Velg språk</label>
-                <select id="languageSelect" onchange="setLanguage(this.value)" aria-label="Velg språk">
-                    <option value="no" selected>🇳🇴 Norsk</option>
-                    <option value="se">🇸🇪 Svenska</option>
-                    <option value="en">🇬🇧 English</option>
-                </select>
+            <div class="header-controls">
+                <div class="language-selector">
+                    <label for="languageSelect" class="visually-hidden">Velg språk</label>
+                    <select id="languageSelect" onchange="setLanguage(this.value)" aria-label="Velg språk">
+                        <option value="no" selected>🇳🇴 Norsk</option>
+                        <option value="se">🇸🇪 Svenska</option>
+                        <option value="en">🇬🇧 English</option>
+                    </select>
+                </div>
             </div>
-        
-            <button class="hamburger" onclick="toggleMenu()">☰</button>
+            <button class="hamburger" onclick="toggleMenu()">
+                ☰ <span class="visually-hidden">Åpne meny</span>
+            </button>
         </div>
+          
           
 
         <div class="header-text">
@@ -42,7 +46,7 @@
                 støtte, rapporter og brukermanualer.</p>
             <p class="updated" data-i18n="header.updated">📅 Sist oppdatert: 2025-07-08</p>
         </div>
-    
+        
         <nav class="section-nav">
             <ul>
                 <li><a href="#manualer" data-i18n="nav.manualer">Brukermanualer</a></li>
@@ -52,6 +56,7 @@
                 <li><a href="#opto" data-i18n="nav.opto">Opto-statistikk</a></li>
             </ul>
         </nav>
+       
     </header>
       
 
@@ -248,6 +253,14 @@
     <script src="/assets/js/translations.se.js"></script>
     <script src="/assets/js/translations.en.js"></script>
     <script src="/assets/js/main.js"></script>
+
+    <script>
+        function toggleMenu() {
+            const nav = document.querySelector('.section-nav');
+            nav.classList.toggle('open');
+        }
+    </script>
+      
 </body>
 
 </html>
