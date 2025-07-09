@@ -259,7 +259,24 @@
             const nav = document.querySelector('.section-nav');
             nav.classList.toggle('open');
         }
+
+        function closeMenu() {
+            const nav = document.querySelector('.section-nav');
+            nav.classList.remove('open');
+        }
+
+        // Lukk meny ved klikk på en menylenke (kun på mobil)
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.section-nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    if (window.innerWidth <= 600) {
+                        closeMenu();
+                    }
+                });
+            });
+        });
     </script>
+      
       
 </body>
 
