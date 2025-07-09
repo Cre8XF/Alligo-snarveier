@@ -14,6 +14,12 @@ window.translations_se = {
     opto: "Opto-statistik"
   },
 
+  teamoverview: {
+    title: "👥 Förenklad översikt över inköpsteamet",
+    description: "Få en snabb översikt över vem som arbetar med vilka kategorier och roller inom inköp och produktledning.",
+    link: "🔍 Gå till översikten"
+  },
+    
   manualer: {
     title: "📘 Användarmanualer – inköp",
     subtitle: "Här hittar du användarmanualer för inköp i Jeeves:",

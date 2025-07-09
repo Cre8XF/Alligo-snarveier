@@ -99,6 +99,21 @@ footer {
   background: white;
   color: #003f66;
 }
+.back-button {
+  display: inline-block;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+  background: #005288;
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #003f66;
+}
 
 /* Midtdel med tittel og undertekster */
 .header-text {
@@ -161,6 +176,40 @@ footer {
 .section-nav a:hover {
   color: #003f66;
   background: #dbe9f3;
+}
+.team-overview-highlight {
+  background: #e6f0f8;
+  border-left: 6px solid #005288;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.team-overview-highlight h2 {
+  color: #005288;
+  margin-bottom: 0.5rem;
+}
+
+.team-overview-highlight p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-card {
+  display: inline-block;
+  background: #005288;
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.highlight-card:hover {
+  background: #003f66;
 }
 
 /* =========================

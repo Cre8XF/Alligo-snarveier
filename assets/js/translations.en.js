@@ -14,6 +14,12 @@ window.translations_en = {
     opto: "Opto Statistics"
   },
 
+  teamoverview: {
+    title: "👥 Simplified overview of the purchasing team",
+    description: "Quickly see who is responsible for what categories and roles within purchasing and product management.",
+    link: "🔍 View the overview"
+  },
+    
   manualer: {
     title: "📘 User Manuals – Purchasing",
     subtitle: "Here you’ll find user guides for purchasing tasks in Jeeves:",

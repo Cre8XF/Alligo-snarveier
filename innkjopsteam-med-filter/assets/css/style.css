@@ -61,6 +61,22 @@ header select {
   color: #003f66;
   background: white;
 }
+.back-button {
+  display: inline-block;
+  background: #005288;
+  color: white;
+  font-weight: 500;
+  padding: 0.4rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #003f66;
+}
 
 /* =========================
    🏷️ FILTER-TAGS

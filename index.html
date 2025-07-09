@@ -49,11 +49,11 @@
         
         <nav class="section-nav">
             <ul>
-                <li><a href="#manualer" data-i18n="nav.manualer">Brukermanualer</a></li>
                 <li><a href="#innkjop" data-i18n="nav.innkjop">Innkjøp</a></li>
                 <li><a href="#freshservice" data-i18n="nav.freshservice">Sak og støtte</a></li>
                 <li><a href="#nyheter" data-i18n="nav.nyheter">Nyhetsoversikt</a></li>
                 <li><a href="#opto" data-i18n="nav.opto">Opto-statistikk</a></li>
+                <li><a href="#manualer" data-i18n="nav.manualer">Brukermanualer</a></li>
             </ul>
         </nav>
        
@@ -61,44 +61,18 @@
       
 
     <main>
-        <section id="manualer">
-            <h2 data-i18n="manualer.title">📘 Brukermanualer – innkjøp</h2>
-            <p data-i18n="manualer.subtitle">Her finner du brukermanualer for innkjøp i <strong>Jeeves</strong>:</p>
-            <div class="manual-grid">
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=7509236&key=mYvjS7Dd3nmbU0af&mode=1&du=37914007"
-                    target="_blank" rel="noopener" data-i18n="manualer.link1">📄 Artikkeloppsett og lagerstyring ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6764135&key=0xFFd02qWhVoDhG2&mode=1&du=37914011"
-                    target="_blank" rel="noopener" data-i18n="manualer.link2">📄 Purchase Order Group’s ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6824299&key=uRhP2oCtgLZ7zWzk&mode=1&du=37914012"
-                    target="_blank" rel="noopener" data-i18n="manualer.link3">📄 Skape manuell bestilling til lager ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=4113198&key=CcGe8UIwFge2Daev&mode=1&du=37914014"
-                    target="_blank" rel="noopener" data-i18n="manualer.link4">📄 Frislippe bestillinger i status "Godkjent"
-                    ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6818569&key=a9OWDwea0AuUtwn7&mode=1&du=37914015"
-                    target="_blank" rel="noopener" data-i18n="manualer.link5">📄 Bekrefte innkjøpsordre med endringer ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6818569&key=mvF6azvFHD1VyTA6&mode=1&du=37914016"
-                    target="_blank" rel="noopener" data-i18n="manualer.link6">📄 Utførte og planlagte transaksjoner ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6938647&key=WJbq9eqk62ZMb5Bo&mode=1&du=37914017"
-                    target="_blank" rel="noopener" data-i18n="manualer.link7">📄 Sluttmerke IO-linje Jeeves ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=6824151&key=TcPkCjxL5RFqLLOH&mode=1&du=37914018"
-                    target="_blank" rel="noopener" data-i18n="manualer.link8">📄 Leveransepåminnelse til leverandør ↗</a>
-                <a class="manual-card"
-                    href="https://go.nanolearning.com/LessonViewer/?da=7244613&key=pJkD78fIf8t6hh6m&mode=1&du=37914019"
-                    target="_blank" rel="noopener" data-i18n="manualer.link9">📄 Konvertering – manuell IO "allerede bestilt"
-                    ↗</a>
-            </div>
-            </section>
+       
+        <section class="team-overview-highlight">
+            <h2 data-i18n="teamoverview.title">👥 Forenklet oversikt over innkjøpsteamet</h2>
+            <p data-i18n="teamoverview.description">
+                Få raskt innblikk i hvem som jobber med hvilke kategorier og roller innen innkjøp og produktstyring.
+            </p>
+            <a class="highlight-card" href="/innkjopsteam-med-filter/index.html" data-i18n="teamoverview.link">
+                🔍 Gå til oversikten
+            </a>
+        </section>
           
           
-
             <section id="innkjop">
                 <h2 data-i18n="innkjop.title">🛒 Innkjøp</h2>
                 <p data-i18n="innkjop.subtitle">
@@ -111,7 +85,7 @@
                     <a class="purchase-card" href="#" target="_blank" data-i18n="innkjop.link2">✅ Godkjente leverandører</a>
                     <a class="purchase-card" href="#" target="_blank" data-i18n="innkjop.link3">🛠️ Rutine for bestilling av teknisk
                         utstyr</a>
-                    <a class="purchase-card" href="/innkjopsteam-med-filter/index.html" target="_blank">
+                    <a class="purchase-card" href="/innkjopsteam-med-filter/index.html">
                         🔍 Forenklet oversikt – hvem jobber med hva innen innkjøp og kategori
                     </a>
                 </div>
@@ -248,6 +222,41 @@
             </div>
         </section>
           
+        <section id="manualer">
+            <h2 data-i18n="manualer.title">📘 Brukermanualer – innkjøp</h2>
+            <p data-i18n="manualer.subtitle">Her finner du brukermanualer for innkjøp i <strong>Jeeves</strong>:</p>
+            <div class="manual-grid">
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=7509236&key=mYvjS7Dd3nmbU0af&mode=1&du=37914007"
+                    target="_blank" rel="noopener" data-i18n="manualer.link1">📄 Artikkeloppsett og lagerstyring ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6764135&key=0xFFd02qWhVoDhG2&mode=1&du=37914011"
+                    target="_blank" rel="noopener" data-i18n="manualer.link2">📄 Purchase Order Group’s ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6824299&key=uRhP2oCtgLZ7zWzk&mode=1&du=37914012"
+                    target="_blank" rel="noopener" data-i18n="manualer.link3">📄 Skape manuell bestilling til lager ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=4113198&key=CcGe8UIwFge2Daev&mode=1&du=37914014"
+                    target="_blank" rel="noopener" data-i18n="manualer.link4">📄 Frislippe bestillinger i status "Godkjent"
+                    ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6818569&key=a9OWDwea0AuUtwn7&mode=1&du=37914015"
+                    target="_blank" rel="noopener" data-i18n="manualer.link5">📄 Bekrefte innkjøpsordre med endringer ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6818569&key=mvF6azvFHD1VyTA6&mode=1&du=37914016"
+                    target="_blank" rel="noopener" data-i18n="manualer.link6">📄 Utførte og planlagte transaksjoner ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6938647&key=WJbq9eqk62ZMb5Bo&mode=1&du=37914017"
+                    target="_blank" rel="noopener" data-i18n="manualer.link7">📄 Sluttmerke IO-linje Jeeves ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=6824151&key=TcPkCjxL5RFqLLOH&mode=1&du=37914018"
+                    target="_blank" rel="noopener" data-i18n="manualer.link8">📄 Leveransepåminnelse til leverandør ↗</a>
+                <a class="manual-card"
+                    href="https://go.nanolearning.com/LessonViewer/?da=7244613&key=pJkD78fIf8t6hh6m&mode=1&du=37914019"
+                    target="_blank" rel="noopener" data-i18n="manualer.link9">📄 Konvertering – manuell IO "allerede bestilt"
+                    ↗</a>
+            </div>
+        </section>
           
     </main>
 
