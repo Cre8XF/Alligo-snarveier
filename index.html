@@ -101,7 +101,9 @@
 
             <section id="innkjop">
                 <h2 data-i18n="innkjop.title">🛒 Innkjøp</h2>
-                <p data-i18n="innkjop.subtitle">Nyttige lenker knyttet til innkjøp, bestillinger og godkjente leverandører.</p>
+                <p data-i18n="innkjop.subtitle">
+                    Nyttige lenker knyttet til innkjøp, bestillinger og godkjente leverandører.
+                </p>
             
                 <div class="purchase-grid">
                     <a class="purchase-card" href="#" target="_blank" data-i18n="innkjop.link1">📦 Bestillingsportal for
@@ -109,8 +111,12 @@
                     <a class="purchase-card" href="#" target="_blank" data-i18n="innkjop.link2">✅ Godkjente leverandører</a>
                     <a class="purchase-card" href="#" target="_blank" data-i18n="innkjop.link3">🛠️ Rutine for bestilling av teknisk
                         utstyr</a>
+                    <a class="purchase-card" href="/innkjopsteam-med-filter/index.html" target="_blank">
+                        🔍 Forenklet oversikt – hvem jobber med hva innen innkjøp og kategori
+                    </a>
                 </div>
             </section>
+              
             
           
 
@@ -253,29 +259,6 @@
     <script src="/assets/js/translations.se.js"></script>
     <script src="/assets/js/translations.en.js"></script>
     <script src="/assets/js/main.js"></script>
-
-    <script>
-        function toggleMenu() {
-            const nav = document.querySelector('.section-nav');
-            nav.classList.toggle('open');
-        }
-
-        function closeMenu() {
-            const nav = document.querySelector('.section-nav');
-            nav.classList.remove('open');
-        }
-
-        // Lukk meny ved klikk på en menylenke (kun på mobil)
-        document.addEventListener('DOMContentLoaded', () => {
-            document.querySelectorAll('.section-nav a').forEach(link => {
-                link.addEventListener('click', () => {
-                    if (window.innerWidth <= 600) {
-                        closeMenu();
-                    }
-                });
-            });
-        });
-    </script>
       
       
 </body>
