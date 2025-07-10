@@ -196,3 +196,48 @@ section {
   white-space: nowrap;
   border: 0;
 }
+/* =========================
+   📱 MOBIL: Innkjøpsteam-side
+========================= */
+body.innkjopsteam .filter-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 1rem 0.5rem;
+  background: #ffffff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+body.innkjopsteam .filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+body.innkjopsteam .filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+body.innkjopsteam .filter-btn {
+  flex: 1 1 auto;
+  padding: 0.5rem 0.8rem;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  background: #e9eff3;
+  color: #003f66;
+  border: 1px solid #c4d2dd;
+  transition: background 0.2s ease;
+}
+
+body.innkjopsteam .filter-btn:hover {
+  background: #d0e7f5;
+}
+
+body.innkjopsteam .filter-btn.active {
+  background: #005288;
+  color: white;
+  font-weight: bold;
+}
