@@ -5,44 +5,54 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-i18n="page.title">Innkjøpsteam-oversikt</title>
-  <link rel="stylesheet" href="/assets/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/main.final.css" />
 </head>
 
-<body>
-  <header>
-    <h1 data-i18n="header.title">🧑‍💼 Innkjøpsteam</h1>
-  
-    <a href="/index.html" class="back-button">⬅️ Tilbake til Team Innkjøp</a>
-  
-    <div class="language-wrapper">
-      <span>Velg språk</span>
-      <label for="languageSelect" class="visually-hidden">Velg språk</label>
-      <select id="languageSelect" onchange="setLanguage(this.value)">
-        <option value="no" selected>🇳🇴 Norsk</option>
-        <option value="se">🇸🇪 Svenska</option>
-        <option value="en">🇬🇧 English</option>
-      </select>
+<body class="innkjopsteam">
+  <header class="sticky-header">
+    <div class="top-header">
+      <div class="header-left">
+        <h1 data-i18n="header.title">🧑‍💼 Innkjøpsteam</h1>
+        <a href="/index.html" class="back-button">⬅️ Tilbake til Team Innkjøp</a>
+        <div class="language-wrapper">
+          <label for="languageSelect" class="visually-hidden">Velg språk</label>
+          <select id="languageSelect" onchange="setLanguage(this.value)">
+            <option value="no" selected>🇳🇴 Norsk</option>
+            <option value="se">🇸🇪 Svenska</option>
+            <option value="en">🇬🇧 English</option>
+          </select>
+        </div>
+      </div>
     </div>
+
+    <div class="filter-section">
+      <div class="filter-group">
+        <h4>👤 Innkjøpssjef</h4>
+        <div class="filter-buttons">
+          <button class="filter-btn" data-manager="Christian Vågen">Team Christian</button>
+          <button class="filter-btn" data-manager="Ola Andersson">Team Ola</button>
+        </div>
+      </div>
+    
+      <div class="filter-group">
+        <h4>🧑‍💼 Rolle</h4>
+        <div class="filter-buttons">
+          <button class="filter-btn" data-role="buyer">Innkjøper</button>
+          <button class="filter-btn" data-role="product_manager">Produktsjef</button>
+        </div>
+      </div>
+    
+      <div class="filter-group">
+        <h4>📦 Kategorier</h4>
+        <div class="filter-buttons" id="categoryFilters">
+          <!-- Dynamisk generert via JS -->
+        </div>
+      </div>
+    </div>
+    
   </header>
   
-
-  <!-- 🔍 Filterseksjoner -->
-  <section class="filter-section">
-    <div class="filter-group">
-      <h4>🧑‍💼 Rolle</h4>
-      <div class="filter-buttons">
-        <button class="filter-btn" data-role="buyer">Innkjøper</button>
-        <button class="filter-btn" data-role="product_manager">Produktsjef</button>
-      </div>
-    </div>
-
-    <div class="filter-group">
-      <h4>📦 Kategorier</h4>
-      <div class="filter-buttons" id="categoryFilters">
-        <!-- Dynamisk generert via JS -->
-      </div>
-    </div>
-  </section>
+  
 
   <!-- 👤 Personkort vises her -->
   <main id="peopleContainer"></main>

@@ -2,7 +2,7 @@ let peopleData = [];
 let currentFilters = {};
 
 async function loadPeople(filter = {}) {
-  const res = await fetch('assets/data/people.json');
+  const res = await fetch('assets/data/people.updated.json');
   peopleData = await res.json();
   const t = window.translations || {};
   const container = document.getElementById('peopleContainer');
@@ -11,8 +11,10 @@ async function loadPeople(filter = {}) {
   const filtered = peopleData.filter(p => {
     return (!filter.role || p.role === filter.role) &&
            (!filter.department || p.department === filter.department) &&
-           (!filter.category || (p.categories && p.categories.includes(filter.category)));
+           (!filter.category || (p.categories && p.categories.includes(filter.category))) &&
+           (!filter.manager || p.manager === filter.manager);
   });
+  
 
   filtered.forEach(p => {
     const card = document.createElement('div');
@@ -92,15 +94,27 @@ function setLanguage(lang) {
 window.addEventListener('DOMContentLoaded', () => {
   setLanguage('no');
 
-  // 👉 Koble rolle-knapper til filtrering
+  // 👉 Rolle-filter
   document.querySelectorAll('.filter-btn[data-role]').forEach(btn => {
     btn.addEventListener('click', () => {
       const role = btn.getAttribute('data-role');
       applyFilter('role', role);
 
-      // Oppdater aktiv stil
+      // Toggle aktiv stil
       document.querySelectorAll('.filter-btn[data-role]').forEach(b => b.classList.remove('active'));
       if (currentFilters.role === role) btn.classList.add('active');
+    });
+  });
+
+  // 👉 Manager-filter (Team Christian / Team Ola)
+  document.querySelectorAll('.filter-btn[data-manager]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const manager = btn.getAttribute('data-manager');
+      applyFilter('manager', manager);
+
+      // Toggle aktiv stil
+      document.querySelectorAll('.filter-btn[data-manager]').forEach(b => b.classList.remove('active'));
+      if (currentFilters.manager === manager) btn.classList.add('active');
     });
   });
 });

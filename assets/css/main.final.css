@@ -1,0 +1,801 @@
+/* === style.css === */
+
+/* =========================
+   🌐 GLOBALT
+========================= */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3f4f6;
+  color: #111;
+  margin: 0;
+  padding: 1rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  border: 0;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* =========================
+       🚩 HEADER
+    ========================= */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background: #005288;
+  color: white;
+  padding: 1rem 1.5rem;
+  gap: 1rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+}
+
+.language-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 0.9rem;
+  color: white;
+  gap: 0.2rem;
+}
+
+header select {
+  font-size: 1rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: none;
+  color: #003f66;
+  background: white;
+}
+
+/* =========================
+       🏷️ FILTER-TAGS
+    ========================= */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.filter-tag {
+  background: #e6f2fb;
+  border: 1px solid #005288;
+  border-radius: 20px;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #005288;
+}
+
+.filter-tag.active {
+  background: #005288;
+  color: white;
+}
+
+/* =========================
+       👤 PERSON-KORT
+    ========================= */
+.person-card {
+  display: flex;
+  gap: 1.5rem;
+  background: white;
+  border-left: 5px solid #005288;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  align-items: flex-start;
+}
+
+.person-image-wrapper {
+  flex-shrink: 0;
+}
+
+.person-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.person-info {
+  flex: 1;
+}
+
+.person-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.25rem;
+  color: #005288;
+}
+
+.person-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.person-card a {
+  color: #005288;
+  text-decoration: none;
+}
+
+.person-card a:hover {
+  text-decoration: underline;
+}
+/* === FILTERSEKSJON === */
+.filter-section {
+  position: sticky;
+  top: 5rem; /* justeres etter høyden på <header> */
+  z-index: 500;
+  background: #f7f7f7;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.filter-group h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #004a7c;
+  border-left: 4px solid #0077b6;
+  padding-left: 0.5rem;
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 0.9rem;
+  background-color: #e7f3ff;
+  border: 1px solid #0077b6;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filter-btn:hover {
+  background-color: #cce6ff;
+}
+
+.filter-btn.active {
+  background-color: #0077b6;
+  color: #fff;
+}
+
+/* === RESPONSIVITET === */
+@media (max-width: 600px) {
+  .filter-section {
+    padding: 0.75rem;
+  }
+
+  .filter-group h4 {
+    font-size: 1rem;
+  }
+
+  .filter-btn {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.7rem;
+  }
+}
+
+/* === structured.css === */
+
+/* =========================
+       🧱 GLOBALT & STANDARD
+    ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #bac1ca;
+  color: #333;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0078d4;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+       🦶 FOOTER
+    ========================= */
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* =========================
+       🚩 HEADER & MENY (OPPDATERT)
+    ========================= */
+
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0e3f5f;
+  color: white;
+  box-shadow: 0 2px 6px rgba(61, 56, 56, 0.986);
+}
+
+/* Toppbjelke med logo og språkvelger */
+.header-top {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  background: #003f6600;
+  border-bottom: 5px solid rgba(218, 233, 195, 0.1); /* valgfritt */
+}
+
+.logo {
+  height: 40px;
+  width: auto;
+}
+
+.header-top select {
+  font-size: 0.95rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #003f66;
+}
+.header-top select:hover {
+  border-color: #005288;
+}
+.language-selector {
+  margin-left: auto;
+}
+
+.language-selector select {
+  font-size: 0.95rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background: white;
+  color: #003f66;
+}
+.back-button {
+  display: inline-block;
+  margin: 0.5rem 0 1rem;
+  font-size: 0.95rem;
+  background: #005288;
+  color: white;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #003f66;
+}
+
+/* Midtdel med tittel og undertekster */
+.header-text {
+  text-align: center;
+  margin-top: 0.5rem;
+  padding: 0.8rem 1.5rem 0.5rem;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.header-text .subtitle {
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: #cce5ff;
+}
+
+.header-text .updated {
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+  color: #e0f0ff;
+}
+
+/* =========================
+       📌 SEKSJONSNAVIGASJON
+    ========================= */
+
+.section-nav {
+  background: #eef2f5;
+  border-top: 1px solid #ccc;
+  border-bottom: 2px solid #003f66;
+  padding: 0.8rem 1rem;
+  text-align: center;
+}
+
+.section-nav ul {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.section-nav li {
+  display: inline;
+}
+
+.section-nav a {
+  font-weight: 500;
+  color: #005288;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.section-nav a:hover {
+  color: #003f66;
+  background: #dbe9f3;
+}
+.team-overview-highlight {
+  background: #e6f0f8;
+  border-left: 6px solid #005288;
+  padding: 1.5rem;
+  margin: 1.5rem auto;
+  max-width: 900px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.team-overview-highlight h2 {
+  color: #005288;
+  margin-bottom: 0.5rem;
+}
+
+.team-overview-highlight p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.highlight-card {
+  display: inline-block;
+  background: #005288;
+  color: white;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.highlight-card:hover {
+  background: #003f66;
+}
+
+/* =========================
+       📄 HOVEDINNHOLD
+    ========================= */
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+section {
+  background: white;
+  border-left: 5px solid #005288;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  scroll-margin-top: 130px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #005288;
+  font-size: 1.3rem;
+}
+
+/* =========================
+       📘 MANUALER
+    ========================= */
+
+.manual-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.manual-card {
+  background: #f9f9f9;
+  border-left: 4px solid #005288;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.manual-card:hover {
+  background: #e8f0fb;
+  transform: translateX(3px);
+}
+
+/* =========================
+       🛒 INNKJØP
+    ========================= */
+
+.purchase-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.purchase-card {
+  background: #f4f6f9;
+  border-left: 4px solid #005288;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.purchase-card:hover {
+  background: #e0effc;
+  transform: translateX(3px);
+}
+
+/* =========================
+       📊 OPTO
+    ========================= */
+
+.opto-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  margin-top: 1rem;
+}
+
+.opto-card {
+  background: #f4f6f9;
+  border-left: 4px solid #005288;
+  padding: 0.9rem 1rem;
+  border-radius: 6px;
+  color: #005288;
+  font-weight: 500;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.opto-card:hover {
+  background: #e0effc;
+  transform: translateX(3px);
+}
+
+/* =========================
+       🛠️ FRESHSERVICE
+    ========================= */
+
+.support-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.support-card {
+  display: block;
+  background: #ffffff;
+  border-left: 5px solid #005288;
+  border-radius: 10px;
+  padding: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.support-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  background: #f9f9ff;
+}
+
+.support-card h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #005288;
+}
+
+.support-card p {
+  margin-bottom: 0;
+  font-size: 0.95rem;
+}
+
+.support-subgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.support-subgrid a {
+  display: block;
+  color: #0078d4;
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+.support-subgrid a:hover {
+  text-decoration: underline;
+}
+
+/* =========================
+       📰 NYHETER
+    ========================= */
+
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+
+.news-card {
+  background: #f9f9f9;
+  border-left: 4px solid #005288;
+  border-radius: 8px;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.news-card:hover {
+  background: #e6f2fb;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.news-card h3 {
+  margin-top: 0;
+  color: #005288;
+  font-size: 1.1rem;
+}
+
+.news-card p {
+  font-size: 0.95rem;
+  margin-bottom: 0;
+}
+
+/* =========================
+       🔹 UNDERVERKTØY / DELER
+    ========================= */
+
+.subsection {
+  margin-top: 2rem;
+  background: #f4f6fa;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #005288;
+}
+
+.subsection h3 {
+  margin-top: 0;
+  color: #005288;
+}
+
+.subsection ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subsection li {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.subsection a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.subsection a:hover {
+  text-decoration: underline;
+}
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #005288;
+  color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Deler inn topp-header og filter seksjon */
+.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: #005288;
+}
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background: #f7f7f7;
+  padding: 1rem 2rem;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.top-header {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.5rem;
+  background: #005288;
+}
+
+.top-header h1 {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: white;
+}
+.header-left {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-left h1 {
+  color: #fff;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.header-left .back-button {
+  background-color: #1177cc;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 999px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.header-left .language-wrapper select {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+}
+
+.back-button {
+  background-color: #1177cc;
+  color: white;
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.language-wrapper select {
+  font-size: 0.9rem;
+  padding: 0.3rem 0.5rem;
+  border-radius: 6px;
+}
+/* Gjelder kun for Innkjøpsteam-siden */
+body.innkjopsteam .filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 1rem 1.5rem;
+  background: #f7f7f7;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+body.innkjopsteam .filter-group h4 {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #004a7c;
+  border-left: 4px solid #0077b6;
+  padding-left: 0.5rem;
+}
+
+/* =============================
+     📦 GRIDSEKSJONER FRA structured.css
+  ============================= */
+
+.subsection a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.subsection a:hover {
+  text-decoration: underline;
+}
+
+.subsection h3 {
+  margin-top: 0;
+  color: #005288;
+}
+
+.subsection li {
+  margin-bottom: 0.7rem;
+  font-size: 0.95rem;
+}
+
+.subsection ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subsection {
+  margin-top: 2rem;
+  background: #f4f6fa;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #005288;
+}
