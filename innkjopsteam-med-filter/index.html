@@ -5,12 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title data-i18n="page.title">Innkjøpsteam-oversikt</title>
-  <link rel="stylesheet" href="/assets/css/main.final.css" />
-  <link rel="stylesheet" href="/assets/css/mobile.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body class="innkjopsteam">
-  <header class="sticky-header">
+  <header class="sticky-header innkjopsteam-header">
     <div class="top-header">
       <div class="header-left">
         <h1 data-i18n="header.title">🧑‍💼 Innkjøpsteam</h1>
@@ -26,6 +25,7 @@
       </div>
     </div>
 
+    <!-- 📦 Sticky filter-del -->
     <div class="filter-section">
       <div class="filter-group">
         <h4>👤 Innkjøpssjef</h4>
@@ -34,7 +34,6 @@
           <button class="filter-btn" data-manager="Ola Andersson">Team Ola</button>
         </div>
       </div>
-    
       <div class="filter-group">
         <h4>🧑‍💼 Rolle</h4>
         <div class="filter-buttons">
@@ -42,16 +41,16 @@
           <button class="filter-btn" data-role="product_manager">Produktsjef</button>
         </div>
       </div>
-    
       <div class="filter-group">
         <h4>📦 Kategorier</h4>
         <div class="filter-buttons" id="categoryFilters">
-          <!-- Dynamisk generert via JS -->
+          <!-- Dynamisk generert -->
         </div>
       </div>
     </div>
-    
   </header>
+
+
   
   
 
