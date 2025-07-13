@@ -48,12 +48,17 @@
         </div>
       </div>
     </div>
+    <div class="person-count-wrapper">
+      <span id="person-count">Antall personer: X</span>
+      <button id="resetFiltersBtn" class="reset-btn">🔄 Tilbakestill filter</button>
+      <div class="export-buttons">
+        <button id="exportPdfBtn" class="export-btn">📄 Last ned PDF</button>
+        <button id="exportCsvBtn" class="export-btn">📊 Last ned CSV</button>
+      </div>
+
+    </div>
+
   </header>
-
-
-  
-  
-
   <!-- 👤 Personkort vises her -->
   <main id="peopleContainer"></main>
 
@@ -62,6 +67,9 @@
   <script src="assets/js/translations.se.js"></script>
   <script src="assets/js/translations.en.js"></script>
   <script src="assets/js/generate-people.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
 </body>
 
 </html>

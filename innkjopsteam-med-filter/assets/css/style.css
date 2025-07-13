@@ -117,7 +117,57 @@ body {
   flex: 1 1 300px;
   max-width: 400px;
 }
+.person-count-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 0 1rem;
+  font-weight: 600;
+  color: white;
+}
+.person-count-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #005288;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  border-bottom: 3px solid #003f66;
+}
 
+.reset-btn {
+  background: #e0e0e0;
+  color: #003f66;
+  border: none;
+  border-radius: 999px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.reset-btn:hover {
+  background: #ccc;
+}
+.export-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.export-btn {
+  padding: 6px 12px;
+  background-color: #f1f1f1;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.export-btn:hover {
+  background-color: #e0e0e0;
+}
 /* =========================
    👤 PERSON-KORT
 ========================= */
@@ -131,6 +181,16 @@ body {
   margin-bottom: 1.5rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   align-items: flex-start;
+
+  /* 🧷 Hindrer sidesplitting ved PDF-generering */
+  page-break-inside: avoid;
+  break-inside: avoid;
+  overflow: hidden;
+}
+.person-card-wrapper {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin-bottom: 1.5rem;
 }
 
 .person-image-wrapper {
@@ -169,6 +229,10 @@ body {
 .person-card a:hover {
   text-decoration: underline;
 }
+.person-card-wrapper {
+  scroll-margin-top: 370px;
+}
+
 /* === FILTERSEKSJON === */
 .filter-section {
   padding: 1rem;
