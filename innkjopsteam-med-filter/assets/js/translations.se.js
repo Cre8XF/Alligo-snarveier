@@ -8,20 +8,21 @@ window.translations_se = {
     "phone": "Telefon",
     "location": "Plats",
     "company": "Företag",
-    "topSuppliers": "Leverantörer"
-  },
-  "roles": {
-    "buyer": "Inköpare",
-    "product_manager": "Produktchef"
-  },
-  "categories": {
+    "topSuppliers": "Leverantörer",
+    "categories": {
     "Consumables": "Förbrukningsvaror",
     "Industrial Components": "Industriella komponenter",
     "Operation": "Drift",
     "Services": "Tjänster",
     "Tools": "Verktyg",
     "Work Wear & Safety Products": "Arbetskläder och säkerhetsprodukter"
+   }
   },
+  "roles": {
+    "buyer": "Inköpare",
+    "product_manager": "Produktchef"
+  },
+
     "people": {
       "Amanda Bergström": "Amanda Bergström",
       "Amanda Ericsson": "Amanda Ericsson",

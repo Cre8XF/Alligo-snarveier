@@ -9,14 +9,14 @@ window.translations_no = {
     "location": "Lokasjon",
     "company": "Firma",
     "topSuppliers": "Leverandører",
-  },
-  "categories": {
-    "Consumables": "Forbruksmateriell",
-    "Industrial Components": "Industrielle komponenter",
-    "Operation": "Drift",
-    "Services": "Tjenester",
-    "Tools": "Verktøy",
-    "Work Wear & Safety Products": "Arbeidsklær og sikkerhetsprodukter"
+    "categories": {
+      "Consumables": "Forbruksmateriell",
+      "Industrial Components": "Industrielle komponenter",
+      "Operation": "Drift",
+      "Services": "Tjenester",
+      "Tools": "Verktøy",
+      "Work Wear & Safety Products": "Arbeidsklær og sikkerhetsprodukter"
+    }
   },
   "roles": {
     "buyer": "Innkjøper",

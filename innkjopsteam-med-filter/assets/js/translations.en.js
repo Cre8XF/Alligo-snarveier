@@ -8,13 +8,8 @@ window.translations_en = {
     "phone": "Phone",
     "location": "Location",
     "company": "Company",
-    "topSuppliers": "Top suppliers"
-  },
-  "roles": {
-    "buyer": "Buyer",
-    "product_manager": "Product Manager"
-  },
-  "categories": {
+    "topSuppliers": "Top suppliers",
+    "categories": {
     "Consumables": "Consumables",
     "Industrial Components": "Industrial Components",
     "Operation": "Operation",
@@ -22,6 +17,12 @@ window.translations_en = {
     "Tools": "Tools",
     "Work Wear & Safety Products": "Work Wear & Safety Products"
   },
+},
+  "roles": {
+    "buyer": "Buyer",
+    "product_manager": "Product Manager"
+  },
+  
     "people": {
       "Amanda Bergström": "Amanda Bergström",
       "Amanda Ericsson": "Amanda Ericsson",

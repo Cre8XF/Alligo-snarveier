@@ -17,11 +17,11 @@
     "name": "Amanda Bergström",
     "role": "buyer",
     "categories": [
-      "Tools",
-      "Operation",
       "Consumables",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Andreas Rörberg",
@@ -55,7 +55,9 @@
     "name": "Amanda Ericsson",
     "role": "product_manager",
     "department": "Kategori Kläder",
-    "categories": [],
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Cicilia Durevall",
       "Kaisa Westerklint",
@@ -88,9 +90,9 @@
     "role": "buyer",
     "categories": [
       "Consumables",
+      "Industrial Components",
       "Tools",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Bengt Tholin",
@@ -145,7 +147,10 @@
     "name": "Christina Wirsén",
     "role": "product_manager",
     "department": "Kategori Kläder",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Annicka Svensson",
       "Cicilia Durevall",
@@ -171,10 +176,10 @@
     "name": "Cicilia Durevall",
     "role": "buyer",
     "categories": [
-      "Work Wear & Safety Products",
       "Consumables",
+      "Operation",
       "Tools",
-      "Operation"
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Amanda Ericsson",
@@ -201,7 +206,12 @@
     "name": "David Benjaminsson",
     "role": "product_manager",
     "department": "Kategori Gård och Skog",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Annicka Svensson",
@@ -250,10 +260,10 @@
     "name": "Erik Brubakk",
     "role": "buyer",
     "categories": [
-      "Tools",
-      "Services",
-      "Operation",
       "Consumables",
+      "Operation",
+      "Services",
+      "Tools",
       "Work Wear & Safety Products"
     ],
     "worksWith": [
@@ -293,9 +303,9 @@
     "role": "buyer",
     "categories": [
       "Consumables",
+      "Industrial Components",
       "Tools",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Andreas Stenborg",
@@ -364,7 +374,9 @@
     "name": "Julia Karlsson",
     "role": "product_manager",
     "department": "Kategori Gård och Skog",
-    "categories": [],
+    "categories": [
+      "Consumables"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Andreas Rörberg",
@@ -422,11 +434,11 @@
     "name": "Kristiina Andresson",
     "role": "buyer",
     "categories": [
-      "Tools",
-      "Operation",
       "Consumables",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Andréas Good",
@@ -532,7 +544,10 @@
     "name": "Luigi De Stefano",
     "role": "product_manager",
     "department": "Kategori Verktyg",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Kristiina Andresson",
@@ -572,6 +587,9 @@
     "department": "Kategori Skydd",
     "categories": [
       "Consumables",
+      "Operation",
+      "Services",
+      "Tools",
       "Work Wear & Safety Products"
     ],
     "worksWith": [
@@ -626,7 +644,11 @@
     "name": "Mathias Bruland",
     "role": "product_manager",
     "department": "Kategori Industrial Components",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Annicka Svensson",
@@ -672,7 +694,10 @@
     "name": "Niclas Andersson",
     "role": "product_manager",
     "department": "Kategori Infästningar",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Tools"
+    ],
     "worksWith": [
       "Annicka Svensson",
       "Fredrik Squair",
@@ -692,7 +717,9 @@
     "name": "Niclas Olsson",
     "role": "product_manager",
     "department": "Kategori Kläder",
-    "categories": [],
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Annicka Svensson",
       "Erik Brubakk",
@@ -711,7 +738,10 @@
     "name": "Ola Olsson",
     "role": "product_manager",
     "department": "Kategori Skydd",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Annicka Svensson",
       "Fredrik Squair",
@@ -729,7 +759,11 @@
     "name": "Oskar Ulwemann",
     "role": "product_manager",
     "department": "Category Workplace",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
     "worksWith": [
       "Andreas Rörberg",
       "Annicka Svensson",
@@ -773,7 +807,11 @@
     "name": "Peter Rydell",
     "role": "product_manager",
     "department": "Kategori Förnödenheter",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Tools"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Andreas Rörberg",
@@ -812,7 +850,11 @@
     "name": "Rikard Karlsson",
     "role": "product_manager",
     "department": "Kategori Infästningar",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Annicka Svensson",
@@ -836,11 +878,11 @@
     "name": "Roger Sørqvist",
     "role": "buyer",
     "categories": [
-      "Tools",
-      "Operation",
       "Consumables",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Industrial Components",
+      "Operation",
+      "Tools",
+      "Work Wear & Safety Products"
     ],
     "worksWith": [
       "Andréas Good",
@@ -872,7 +914,11 @@
     "name": "Rune Breivik",
     "role": "product_manager",
     "department": "Kategori Tekniskt skydd",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Tools",
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Annicka Svensson",
@@ -896,7 +942,9 @@
     "name": "Stina Göransson",
     "role": "product_manager",
     "department": "Kategori Kläder",
-    "categories": [],
+    "categories": [
+      "Work Wear & Safety Products"
+    ],
     "worksWith": [
       "Cicilia Durevall",
       "Marlene Forsberg"
@@ -947,9 +995,9 @@
     "role": "buyer",
     "categories": [
       "Consumables",
-      "Tools",
+      "Industrial Components",
       "Services",
-      "Industrial Components"
+      "Tools"
     ],
     "worksWith": [
       "Andréas Good",
@@ -1013,7 +1061,12 @@
     "name": "Tommy Lindgren",
     "role": "product_manager",
     "department": "Kategori Förnödenheter",
-    "categories": [],
+    "categories": [
+      "Consumables",
+      "Industrial Components",
+      "Operation",
+      "Tools"
+    ],
     "worksWith": [
       "Amanda Bergström",
       "Annicka Svensson",
@@ -1100,9 +1153,7 @@
     "name": "Andreas Rörberg",
     "role": "buyer",
     "categories": [
-      "Consumables",
-      "Tools",
-      "Industrial Components"
+      "Tools"
     ],
     "worksWith": [
       "Amanda Bergström",
@@ -1127,10 +1178,7 @@
     "name": "Fredrik Squair",
     "role": "buyer",
     "categories": [
-      "Consumables",
-      "Tools",
-      "Work Wear & Safety Products",
-      "Industrial Components"
+      "Tools"
     ],
     "worksWith": [
       "David Benjaminsson",
@@ -1536,9 +1584,7 @@
   {
     "name": "Mjn",
     "role": "product_manager",
-    "categories": [
-      "Work Wear & Safety Products"
-    ],
+    "categories": [],
     "worksWith": [
       "Linnea Lindén"
     ],
@@ -1576,9 +1622,7 @@
   {
     "name": "N/A Dag Olavson_Univern I/A",
     "role": "product_manager",
-    "categories": [
-      "Work Wear & Safety Products"
-    ],
+    "categories": [],
     "worksWith": [
       "Erik Brubakk",
       "Lars Enander",
@@ -1763,10 +1807,7 @@
   {
     "name": "Reklamationsavdelning",
     "role": "product_manager",
-    "categories": [
-      "Consumables",
-      "Tools"
-    ],
+    "categories": [],
     "worksWith": [
       "Amanda Bergström",
       "Fredrik Squair",
@@ -1848,9 +1889,7 @@
   {
     "name": "Tools",
     "role": "product_manager",
-    "categories": [
-      "Tools"
-    ],
+    "categories": [],
     "worksWith": [
       "Kristiina Andresson"
     ],
