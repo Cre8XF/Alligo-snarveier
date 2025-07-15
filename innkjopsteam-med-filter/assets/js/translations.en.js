@@ -9,6 +9,10 @@ window.translations_en = {
     "location": "Location",
     "company": "Company",
     "topSuppliers": "Top suppliers",
+    "manager": "Purchasing Manager",
+    "all": "All",
+    "teamChristian": "Team Christian",
+    "teamOla": "Team Ola",
     "categories": {
     "Consumables": "Consumables",
     "Industrial Components": "Industrial Components",

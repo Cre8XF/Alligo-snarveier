@@ -9,14 +9,18 @@ window.translations_se = {
     "location": "Plats",
     "company": "Företag",
     "topSuppliers": "Leverantörer",
+    "manager": "Inköpschef",
+    "all": "Alla",
+    "teamChristian": "Team Christian",
+    "teamOla": "Team Ola",
     "categories": {
-    "Consumables": "Förbrukningsvaror",
-    "Industrial Components": "Industriella komponenter",
-    "Operation": "Drift",
-    "Services": "Tjänster",
-    "Tools": "Verktyg",
-    "Work Wear & Safety Products": "Arbetskläder och säkerhetsprodukter"
-   }
+      "Consumables": "Förbrukningsvaror",
+      "Industrial Components": "Industriella komponenter",
+      "Operation": "Drift",
+      "Services": "Tjänster",
+      "Tools": "Verktyg",
+      "Work Wear & Safety Products": "Arbetskläder och säkerhetsprodukter"
+    }
   },
   "roles": {
     "buyer": "Inköpare",

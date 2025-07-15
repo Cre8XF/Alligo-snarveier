@@ -1,23 +1,27 @@
 window.translations_no = {
   "labels": {
-    "role": "Rolle",
-    "department": "Avdeling",
-    "category": "Varegruppe",
-    "worksWith": "Samarbeider med",
-    "email": "E-post",
-    "phone": "Telefon",
-    "location": "Lokasjon",
-    "company": "Firma",
-    "topSuppliers": "Leverandører",
-    "categories": {
-      "Consumables": "Forbruksmateriell",
-      "Industrial Components": "Industrielle komponenter",
-      "Operation": "Drift",
-      "Services": "Tjenester",
-      "Tools": "Verktøy",
-      "Work Wear & Safety Products": "Arbeidsklær og sikkerhetsprodukter"
-    }
-  },
+  "role": "Rolle",
+  "department": "Avdeling",
+  "category": "Varegruppe",
+  "worksWith": "Samarbeider med",
+  "email": "E-post",
+  "phone": "Telefon",
+  "location": "Lokasjon",
+  "company": "Firma",
+  "topSuppliers": "Leverandører",
+  "manager": "Innkjøpssjef",
+  "all": "Alle",
+  "teamChristian": "Team Christian",
+  "teamOla": "Team Ola",
+  "categories": {
+    "Consumables": "Forbruksmateriell",
+    "Industrial Components": "Industrielle komponenter",
+    "Operation": "Drift",
+    "Services": "Tjenester",
+    "Tools": "Verktøy",
+    "Work Wear & Safety Products": "Arbeidsklær og sikkerhetsprodukter"
+  }
+},
   "roles": {
     "buyer": "Innkjøper",
     "product_manager": "Produktsjef"
